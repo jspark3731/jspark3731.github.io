@@ -1,0 +1,84 @@
+<html>
+    <head>
+    <title>My Homepage</title>
+    </head>
+
+    <body>
+    <h2>My Homepage</h2>
+    <a href="programming.html" target="_blank">
+        <img src="programming.jpg" width="500" height="350" alt="Picture deleted">
+    </a>
+    <strong>웹프로그래밍 강의</strong>를 듣고 있습니다.
+
+    <h3>현재 학습하고 있는 과목</h3>
+    <ul>
+        <li>자료구조</li>
+        <li>웹프로그래밍</li>
+        <li>데이터베이스</li>
+        <li>중국마케팅</li>
+        <li><a href="http://www.icampus.ac.kr" target="_blank">아이캠퍼스 확인</a></li>
+    </ul>
+
+    <h3>이번 학기 시간표</h3>
+    <table border="1">
+    <caption>
+        2017-2 시간표
+    </caption>
+
+    <tr>
+        <th>&nbsp;시간&nbsp;</th>
+        <th>&nbsp;월요일&nbsp;</th>
+        <th>&nbsp;화요일&nbsp;</th>
+        <th>&nbsp;수요일&nbsp;</th>
+        <th>&nbsp;목요일&nbsp;</th>
+        <th>&nbsp;금요일&nbsp;</th>
+        <th>&nbsp;아이캠&nbsp;</th>
+    </tr>
+    <tr>
+        <th>12:00~13:30</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>웹프로그래밍</th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>13:30~15:00</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>웹프로그래밍</th>
+        <th></th>
+    <tr>
+        <th>15:00~16:30</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>중국마케팅</th>
+    </tr>
+    <tr>
+        <th>16:30~18:00</th>
+        <th>자료구조</th>
+        <th></th>
+        <th>데이터베이스</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>18:00~19:30</th>
+        <th>자료구조</th>
+        <th></th>
+        <th>데이터베이스</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+
+
+    </body>
+</html>
