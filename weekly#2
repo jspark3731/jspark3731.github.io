@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<body>
+
+<form>
+
+    <fieldset>
+    <fieldset>
+    
+    <h4>세미나 정보</h4>
+    <p>
+    1. 주제 : 차세데 웹 표준 기술 HTML<br>
+    2. 일정 : 5월 12일 14:00 ~ 17:00<br>
+    3. 장소 : 공학관 2층 세미나실<br>
+    4. 인원 : 선착순 100명<br>
+    5. 비용 : 본교 학생 무료(외부 참가자 5,000원)<br>
+    6. 참가신청 : 아래 양식에 빠짐없이 기입하여 접수해 주세요<br>
+    </fieldset>
+
+    <p>
+
+    <h4>개인정보</h4>
+
+    이름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
+    비밀번호&nbsp;<input type="password" name="password"> (수정시 필요)<br>
+
+    <p>
+
+    <h4>참가 정보</h4>
+
+    <fieldset>
+        <legend>참가 유형 선택</legend>
+        <input type="radio" name="stutype" value="student">무료(교내참가자)
+        <input type="radio" name="stutype" value="nonstudent">유료(교외참가자)
+    </fieldset>      
+    
+    <p>
+    
+    <fieldset>
+        <legend>관심 분야 선택</legend>
+        <input type="radio" name="intertype" value="HTML">HTML5 시맨틱
+        <input type="radio" name="intertype" value="CSS">CSS3
+        <input type="radio" name="intertype" value="Web Storage">Web Storage
+        <input type="radio" name="intertype" value="Web Socket">Web Socket
+        <input type="radio" name="intertype" value="Canvas">Canvas
+        <input type="radio" name="intertype" value="Geolocation">Geolocation
+    </fieldset>
+
+    <p>
+
+    <h4>선택 사항</h4>
+
+    직업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="jobs">
+        <option value="가까운 분야 선택" selected>가까운 분야 선택</option>
+        <option value="학생">학생</option>
+        <option value="웹개발">웹개발</option>
+        <option value="웹디자인">웹디자인</option>
+        <option value="교육관련">교육관련</option>
+        <option value="기타">기타</option>
+        </select><br>
+    
+    남길말씀&nbsp;<textarea name="comment" rows="5" cols="50"></textarea><br>
+
+    <hr />
+
+    </form>
+    <input type="submit" value="접수하기">
+    <input type="reset" value="다시쓰기">
+
+    </fieldset>
+
+</body>
+
+</html>
