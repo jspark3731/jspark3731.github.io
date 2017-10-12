@@ -1,0 +1,114 @@
+body{
+    font-family: BMJUA
+}
+caption{
+	caption-side: bottom;
+}
+#header{
+    text-align: center;
+}
+
+#nav{
+	text-align: center;
+}
+#main{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 500px;
+}
+#asidebarleft{
+	width:10%;
+	height: 500px;
+	float: left;
+	background-color: #ffffff;
+}
+#selfie{
+	width: 30%;
+	height 500px;
+	float: left;
+	background-color: #ffffff;
+	text-align: center;
+}
+#introduce{
+	width: 50%;
+	height 500px;
+	float: left;
+	background-color: white;
+	text-align: left;
+	color: #842f2f;
+}
+#contact{
+	width: 80%;
+	height 500px;
+	background-color: white;
+	float: left;
+}
+#asidebarright{
+	width:10%;
+	height: 500px;
+	float: right;
+	background-color: #ffffff;
+}
+
+#footer{
+    text-align: center;
+    height: 100px;
+    font-size: 15px;
+}
+#footer a{
+	text-decoration: none;
+	color:black;
+	font-size: 12px;
+}
+#footer a:hover{
+	color:gray;
+}
+
+
+
+#copyright{
+	color: #b9b9b9;
+	font-size: 13px;
+}
+
+@-webkit-keyframes ToRectangle{
+			from{
+			bottom: 112px;
+			left: 49.3%;
+			-webkit-animation-timing-function:ease-out;
+			}
+			0.02%{
+				bottom: 380px;
+				left: 49.3%;
+			}
+			0.023%{
+				background-color: gray;
+				border-radius: 0px;
+				transform: scale(15,0.2);
+			}
+		}
+#ball{
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background: #9E9E9E;
+			border-radius: 10px;
+			-webkit-animation-name: ToRectangle;
+			-webkit-animation-iteration-count: 1;
+			-webkit-animation-duration: 10000s;
+		}
+
+    
+}
+
+ul{background-color: white;
+   text-align: center;}
+ul li{display: inline; 
+      padding:0 50px;
+      font-weight: bold;
+      font-size: 20px;}
+ul li a{text-decoration: none;
+        color:black;}
+ul li a:hover {text-decoration:none; 
+               color:gray;}
